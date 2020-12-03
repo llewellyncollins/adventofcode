@@ -1,0 +1,24 @@
+{
+  "name": "adventofcode",
+  "version": "0.0.1",
+  "description": "Advent of code",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llewellyncollins/adventofcode.git"
+  },
+  "author": "Llewellyn Collins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llewellyncollins/adventofcode/issues"
+  },
+  "homepage": "https://github.com/llewellyncollins/adventofcode#readme",
+  "dependencies": {
+    "@tsconfig/node12": "^1.0.7",
+    "@types/node": "^14.14.10",
+    "typescript": "^4.1.2"
+  }
+}
