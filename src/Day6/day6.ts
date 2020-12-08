@@ -22,7 +22,7 @@ export const day6Part1 = (): Promise<string> => {
                     if ( !answerMap.has( answer ) ) {
                         answerMap.set( answer, 1 );
                     } else {
-                        answerMap.set( answer, answerMap.get( answer ) + 1 );
+                        answerMap.set(answer, (answerMap as any).get(answer) + 1);
                     }
 
                 } );
@@ -55,7 +55,7 @@ export const day6Part2 = (): Promise<string> => {
                     if ( !answerMap.has( answer ) ) {
                         answerMap.set( answer, 1 );
                     } else {
-                        answerMap.set( answer, answerMap.get( answer ) + 1 );
+                        answerMap.set(answer, (answerMap as any).get(answer) + 1);
                     }
                 } );
 
