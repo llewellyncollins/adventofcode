@@ -125,5 +125,3 @@ export const day7Part2 = (): Promise<string> => {
         })
     });
 }
-
-day7Part2().then(answer => console.log(answer));

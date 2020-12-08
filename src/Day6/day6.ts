@@ -70,5 +70,3 @@ export const day6Part2 = (): Promise<string> => {
         } )
     } );
 }
-
-day6Part2().then( ( answer ) => console.log( answer ) );
