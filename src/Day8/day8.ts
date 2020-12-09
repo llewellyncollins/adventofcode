@@ -1,7 +1,6 @@
 
 import fs from "fs";
 import path from "path";
-import { isWhileStatement } from "typescript";
 
 // https://adventofcode.com/2020/day/8
 
