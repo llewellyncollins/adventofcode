@@ -7,6 +7,8 @@ import { day6Part1, day6Part2 } from './Day6/day6';
 import { day7Part1, day7Part2 } from './Day7/day7';
 import { day8Part1, day8Part2 } from './Day8/day8';
 import { day9Part1, day9Part2 } from './Day9/day9';
+import { day10Part1, day10Part2 } from './Day10/day10';
+import { day11Part1, day11Part2 } from './Day11/day11';
 
 day1Part1().then((answer) => console.log(`Day 1 - ${answer}`));
 day1Part2().then((answer) => console.log(`Day 1 - ${answer}`));
@@ -26,3 +28,7 @@ day8Part1().then((answer) => console.log(`Day 8 - ${answer}`));
 day8Part2().then((answer) => console.log(`Day 8 - ${answer}`));
 day9Part1().then((answer) => console.log(`Day 9 - ${answer}`));
 day9Part2().then((answer) => console.log(`Day 9 - ${answer}`));
+day10Part1().then((answer) => console.log(`Day 10 - ${answer}`));
+day10Part2().then((answer) => console.log(`Day 10 - ${answer}`));
+day11Part1().then((answer) => console.log(`Day 11 - ${answer}`));
+day11Part2().then((answer) => console.log(`Day 11 - ${answer}`));
